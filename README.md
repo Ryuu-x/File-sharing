@@ -1,23 +1,23 @@
-A full-stack file-sharing web application built using the MERN stack (MongoDB, Express.js, React, Node.js). This app allows users to upload, store, and share files via unique download links.
+A full-stack file-sharing web application built using the MERN stack (MongoDB Atlas, Express.js, React, Node.js). The app allows users to upload, store, and share files through unique download links — fast, secure, and simple.
 
-🔧 Tech Stack
-Frontend: React.js (with Axios for API calls)
+🚀 Features
+📤 Upload files from local system
 
-Backend: Node.js, Express.js
+🔗 Generate unique download links to share files
 
-Database: MongoDB (via Mongoose)
+📥 Download files directly via link (no login required)
 
-File Storage: Server file system (or optionally Cloudinary/AWS S3)
+🗃 File metadata (name, size, timestamp) stored in MongoDB Atlas
 
-File Upload Middleware: multer
+🧹 Optional: Auto-expiry/cleanup feature for older files
 
-✨ Key Features
-Upload files from local system
+🧱 Tech Stack
+Frontend: React.js (Vite or Create React App)
 
-Generate shareable download links
+Backend: Node.js + Express.js
 
-Preview file info before downloading
+Database: MongoDB Atlas (via Mongoose)
 
-Download files via link (no account/login required)
+File Handling: Multer middleware (uploads stored in backend server)
 
-Automatically cleans up files after certain duration (optional feature)
+HTTP Requests: Axios
